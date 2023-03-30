@@ -4,7 +4,12 @@
   "CensusYear": [
     {
       "tenantId": "default",
-      "name": "2019",
+      "name": "2023",
+      "code": "2023"
+    },
+    {
+      "tenantId": "default",
+      "name": "2001",
       "code": "2001"
     },
     {
