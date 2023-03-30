@@ -197,6 +197,16 @@
 			]
 		}
 	},
+	"egov-location": {
+		"TenantBoundary": {
+			"masterName": "TenantBoundary",
+			"moduleDefinition": null,
+			"isStateLevel": true,
+			"uniqueKeys": [
+				"$.hierarchyType"
+			]
+		}
+	},
 	"lcms": {
 		"court": {
 			"masterName": "court",
