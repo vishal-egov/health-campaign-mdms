@@ -1,210 +1,356 @@
 {
-    "tenantId": "mz",
-    "moduleName": "egov-location",
-    "TenantBoundary": [
-        {
-            "hierarchyType": {
-                "code": "ADMIN",
-                "name": "ADMIN"
-            },
-            "boundary": {
-                "id": 1,
-                "boundaryNum": 1,
-                "name": "Tete",
-                "localname": "Tete",
+  "tenantId": "mz",
+  "moduleName": "egov-location",
+  "TenantBoundary": [
+    {
+      "hierarchyType": {
+        "code": "ADMIN",
+        "name": "ADMIN"
+      },
+      "boundary": {
+        "id": "LC00001",
+        "boundaryNum": 1,
+        "name": "MOï¿½AMBIQUE",
+        "localname": "MOï¿½AMBIQUE",
+        "longitude": null,
+        "latitude": null,
+        "label": null,
+        "code": "LC00001",
+        "children": [
+          {
+            "id": "UN0aH8CjbZJ",
+            "boundaryNum": 2,
+            "name": "SOFALA",
+            "localname": "SOFALA",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "UN0aH8CjbZJ",
+            "children": [
+              {
+                "id": "gekPEVffW2N",
+                "boundaryNum": 3,
+                "name": "CIDADE DA BEIRA",
+                "localname": "CIDADE DA BEIRA",
                 "longitude": null,
                 "latitude": null,
-                "label": "Province",
-                "code": "LC00001",
-                "children": [
-                    {
-                        "id": "2",
-                        "boundaryNum": 1,
-                        "name": "Angónia",
-                        "localname": "Angónia",
-                        "longitude": null,
-                        "latitude": null,
-                        "label": "District",
-                        "code": "LC00002",
-                        "children": [
-                            {
-                                "id": "3",
-                                "boundaryNum": 1,
-                                "name": "Ulongué",
-                                "localname": "Ulongué",
-                                "longitude": null,
-                                "latitude": null,
-                                "label": "AdministrativeProvince",
-                                "code": "LC00003",
-                                "area": "",
-                                "children": [
-                                    {
-                                        "id": "4",
-                                        "boundaryNum": 1,
-                                        "name": "TAU L1",
-                                        "localname": "TAU L1",
-                                        "longitude": null,
-                                        "latitude": null,
-                                        "label": "Locality",
-                                        "code": "LC00004",
-                                        "area": "",
-                                        "children": [
-                                            {
-                                                "id": "5",
-                                                "boundaryNum": 1,
-                                                "name": "TAU L1 V1",
-                                                "localname": "TAU L1 V1",
-                                                "longitude": null,
-                                                "latitude": null,
-                                                "label": "Village",
-                                                "code": "LC00005",
-                                                "area": "",
-                                                "children": []
-                                            },
-                                            {
-                                                "id": "6",
-                                                "boundaryNum": 1,
-                                                "name": "TAU L1 V2",
-                                                "localname": "TAU L1 V2",
-                                                "longitude": null,
-                                                "latitude": null,
-                                                "label": "Village",
-                                                "code": "LC00006",
-                                                "area": "",
-                                                "children": []
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "id": "7",
-                                        "boundaryNum": 1,
-                                        "name": "TAU L2",
-                                        "localname": "TAU L2",
-                                        "longitude": null,
-                                        "latitude": null,
-                                        "label": "Locality",
-                                        "code": "LC00007",
-                                        "area": "",
-                                        "children": [
-                                            {
-                                                "id": "8",
-                                                "boundaryNum": 1,
-                                                "name": "TAU L2 V1",
-                                                "localname": "TAU L2 V1",
-                                                "longitude": null,
-                                                "latitude": null,
-                                                "label": "Village",
-                                                "code": "LC00008",
-                                                "area": "",
-                                                "children": []
-                                            },
-                                            {
-                                                "id": "9",
-                                                "boundaryNum": 1,
-                                                "name": "TAU L2 V2",
-                                                "localname": "TAU L2 V2",
-                                                "longitude": null,
-                                                "latitude": null,
-                                                "label": "Village",
-                                                "code": "LC00009",
-                                                "area": "",
-                                                "children": []
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "10",
-                                "boundaryNum": 1,
-                                "name": "Dómuè",
-                                "localname": "Dómuè",
-                                "longitude": null,
-                                "latitude": null,
-                                "label": "AdministrativeProvince",
-                                "code": "LC000010",
-                                "area": "",
-                                "children": [
-                                    {
-                                        "id": "11",
-                                        "boundaryNum": 1,
-                                        "name": "TAD L1",
-                                        "localname": "TAD L1",
-                                        "longitude": null,
-                                        "latitude": null,
-                                        "label": "Locality",
-                                        "code": "LC000011",
-                                        "area": "",
-                                        "children": [
-                                            {
-                                                "id": "12",
-                                                "boundaryNum": 1,
-                                                "name": "TAD L1 V1",
-                                                "localname": "TAD L1 V1",
-                                                "longitude": null,
-                                                "latitude": null,
-                                                "label": "Village",
-                                                "code": "LC000012",
-                                                "area": "",
-                                                "children": []
-                                            },
-                                            {
-                                                "id": "13",
-                                                "boundaryNum": 1,
-                                                "name": "TAD L1 V2",
-                                                "localname": "TAD L1 V2",
-                                                "longitude": null,
-                                                "latitude": null,
-                                                "label": "Village",
-                                                "code": "LC000013",
-                                                "area": "",
-                                                "children": []
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "id": "14",
-                                        "boundaryNum": 1,
-                                        "name": "TAD L2",
-                                        "localname": "TAD L2",
-                                        "longitude": null,
-                                        "latitude": null,
-                                        "label": "Locality",
-                                        "code": "LC000014",
-                                        "area": "",
-                                        "children": [
-                                            {
-                                                "id": "15",
-                                                "boundaryNum": 1,
-                                                "name": "TAD L2 V1",
-                                                "localname": "TAD L2 V1",
-                                                "longitude": null,
-                                                "latitude": null,
-                                                "label": "Village",
-                                                "code": "LC000015",
-                                                "area": "",
-                                                "children": []
-                                            },
-                                            {
-                                                "id": "16",
-                                                "boundaryNum": 1,
-                                                "name": "TAD L2 V2",
-                                                "localname": "TAD L2 V2",
-                                                "longitude": null,
-                                                "latitude": null,
-                                                "label": "Village",
-                                                "code": "LC000016",
-                                                "area": "",
-                                                "children": []
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        }
-    ]
+                "label": "Distrito",
+                "code": "gekPEVffW2N",
+                "children": []
+              },
+              {
+                "id": "uLdnSiYhUUf",
+                "boundaryNum": 3,
+                "name": "MARROMEU",
+                "localname": "MARROMEU",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "uLdnSiYhUUf",
+                "children": []
+              },
+              {
+                "id": "aamE7hzQvfv",
+                "boundaryNum": 3,
+                "name": "BÚZI",
+                "localname": "BÚZI",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "aamE7hzQvfv",
+                "children": []
+              },
+              {
+                "id": "D5xRuCViKkL",
+                "boundaryNum": 3,
+                "name": "DONDO",
+                "localname": "DONDO",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "D5xRuCViKkL",
+                "children": []
+              },
+              {
+                "id": "X4KvaPIIZUF",
+                "boundaryNum": 3,
+                "name": "MUANZA",
+                "localname": "MUANZA",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "X4KvaPIIZUF",
+                "children": []
+              },
+              {
+                "id": "pK2u1vfipYX",
+                "boundaryNum": 3,
+                "name": "CHERINGOMA",
+                "localname": "CHERINGOMA",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "pK2u1vfipYX",
+                "children": []
+              },
+              {
+                "id": "CrP6le61OwN",
+                "boundaryNum": 3,
+                "name": "MACHANGA",
+                "localname": "MACHANGA",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "CrP6le61OwN",
+                "children": []
+              },
+              {
+                "id": "DGWPCkcrGy7",
+                "boundaryNum": 3,
+                "name": "CAIA",
+                "localname": "CAIA",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "DGWPCkcrGy7",
+                "children": []
+              },
+              {
+                "id": "teBArJO4QUJ",
+                "boundaryNum": 3,
+                "name": "MARÍNGUE",
+                "localname": "MARÍNGUE",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "teBArJO4QUJ",
+                "children": []
+              },
+              {
+                "id": "B9NS6Ost0ca",
+                "boundaryNum": 3,
+                "name": "GORONGOSA",
+                "localname": "GORONGOSA",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "B9NS6Ost0ca",
+                "children": []
+              },
+              {
+                "id": "rVpIjA5IDiX",
+                "boundaryNum": 3,
+                "name": "NHAMATANDA",
+                "localname": "NHAMATANDA",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "rVpIjA5IDiX",
+                "children": []
+              },
+              {
+                "id": "JRE0m9rYQ0z",
+                "boundaryNum": 3,
+                "name": "CHEMBA",
+                "localname": "CHEMBA",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "JRE0m9rYQ0z",
+                "children": []
+              },
+              {
+                "id": "QV0CXtYmlU7",
+                "boundaryNum": 3,
+                "name": "CHIBABAVA",
+                "localname": "CHIBABAVA",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "QV0CXtYmlU7",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "coEbHyby9NV",
+            "boundaryNum": 2,
+            "name": "TETE",
+            "localname": "TETE",
+            "longitude": null,
+            "latitude": null,
+            "label": "Provincia",
+            "code": "coEbHyby9NV",
+            "children": [
+              {
+                "id": "VPhgQloRrsV",
+                "boundaryNum": 3,
+                "name": "CHANGARA",
+                "localname": "CHANGARA",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "VPhgQloRrsV",
+                "children": []
+              },
+              {
+                "id": "S8C4IKdeevh",
+                "boundaryNum": 3,
+                "name": "TSANGANO",
+                "localname": "TSANGANO",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "S8C4IKdeevh",
+                "children": []
+              },
+              {
+                "id": "sjlxPzMHEE9",
+                "boundaryNum": 3,
+                "name": "ANGÓNIA",
+                "localname": "ANGÓNIA",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "sjlxPzMHEE9",
+                "children": []
+              },
+              {
+                "id": "dxRTm6DGVxv",
+                "boundaryNum": 3,
+                "name": "CIDADE DE TETE",
+                "localname": "CIDADE DE TETE",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "dxRTm6DGVxv",
+                "children": []
+              },
+              {
+                "id": "mOzeA3QUK3j",
+                "boundaryNum": 3,
+                "name": "CHIFUNDE",
+                "localname": "CHIFUNDE",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "mOzeA3QUK3j",
+                "children": []
+              },
+              {
+                "id": "Y4KNz4KZ5eG",
+                "boundaryNum": 3,
+                "name": "MUTARARA",
+                "localname": "MUTARARA",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "Y4KNz4KZ5eG",
+                "children": []
+              },
+              {
+                "id": "wY0ScVjjv14",
+                "boundaryNum": 3,
+                "name": "MARÁVIA",
+                "localname": "MARÁVIA",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "wY0ScVjjv14",
+                "children": []
+              },
+              {
+                "id": "jFycbhuIZEv",
+                "boundaryNum": 3,
+                "name": "MÁGOÈ",
+                "localname": "MÁGOÈ",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "jFycbhuIZEv",
+                "children": []
+              },
+              {
+                "id": "FWTfHWRHAkc",
+                "boundaryNum": 3,
+                "name": "MOATIZE",
+                "localname": "MOATIZE",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "FWTfHWRHAkc",
+                "children": []
+              },
+              {
+                "id": "esQmEJ5d38U",
+                "boundaryNum": 3,
+                "name": "DOA",
+                "localname": "DOA",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "esQmEJ5d38U",
+                "children": []
+              },
+              {
+                "id": "ySExqurKdXh",
+                "boundaryNum": 3,
+                "name": "CHIUTA",
+                "localname": "CHIUTA",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "ySExqurKdXh",
+                "children": []
+              },
+              {
+                "id": "JKi4pw70tGe",
+                "boundaryNum": 3,
+                "name": "MARARA",
+                "localname": "MARARA",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "JKi4pw70tGe",
+                "children": []
+              },
+              {
+                "id": "rgCBbpP1UuU",
+                "boundaryNum": 3,
+                "name": "MACANGA",
+                "localname": "MACANGA",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "rgCBbpP1UuU",
+                "children": []
+              },
+              {
+                "id": "gi1GeKbkPQo",
+                "boundaryNum": 3,
+                "name": "ZUMBO",
+                "localname": "ZUMBO",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "gi1GeKbkPQo",
+                "children": []
+              },
+              {
+                "id": "ckWXpbBUYkL",
+                "boundaryNum": 3,
+                "name": "CAHORA BASSA",
+                "localname": "CAHORA BASSA",
+                "longitude": null,
+                "latitude": null,
+                "label": "Distrito",
+                "code": "ckWXpbBUYkL",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
 }
